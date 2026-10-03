@@ -6,3 +6,14 @@ Models like **Decision Trees** use branching yes or no decisions to make predict
 
 ## Basic Data Exploration
 Pandas is the most commonly used tool for data manipulation in data science. The main Pandas feature we will work with are DataFrames which are essentially tables, a lot like an Excel sheet.
+
+## Model Validation
+One way we can calculate a model's accuracy is by calculating the Mean Absolute Error (MAE)
+```
+  error = actual - predicted
+```
+We can use two types of data in model validation:
+- **In sample data** - this is where the model is validated using the same data used to train it. This strategy is ineffective because the training data my have patterns that are not representative of real world data. The model will thus learn these patterns and appear accurate in training but will fail with real world data.
+- **Validation predictions** - this is where we use data that the model has not seen before to test it.
+
+
