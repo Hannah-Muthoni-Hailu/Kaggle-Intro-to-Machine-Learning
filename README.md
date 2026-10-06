@@ -20,3 +20,6 @@ We can use two types of data in model validation:
 **Underfitting** is where the model fails to capture enough patterns to make an accurate prediction. **Overfitting** is where the model captures too many patterns that may only exist in the training data and not actually be reflected in real world data.
 
 The most accurate models strike a balance between underfitting and overfitting.
+
+## Random Forests
+These models use multiple decision trees and average out the prediction.
